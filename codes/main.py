@@ -121,14 +121,15 @@ def main():
             market_firms.append(each_firm)
         return market_firms
 
-    # print(get_market_production( list_of_firms ))
+    #print(get_market_production( list_of_firms ))
 
     # print(make_firm_labor_graph(list_of_firms))
     # plt.show()
 
     # print(get_total_production(list_of_firms))
 
-    # print(demo_run_one())
+    for i in demo_run_one():
+        print(i)
     # end = datetime.now()
     # print('__________________________')
     # print('total time: ', end - start)
